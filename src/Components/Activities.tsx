@@ -65,7 +65,7 @@ export function Activities() {
 
 
     return(
-        <section className="bg-slate-900">
+        <section id='activities' className="bg-slate-900">
             <div className="m-auto px-3 py-20 max-w-5xl w-full flex flex-col items-center gap-16">
                 
                 <div className="text-center flex flex-col gap-3">

@@ -73,18 +73,18 @@ export function Header() {
                     </li>
 
                     <li className='p-2 text-3xl relative cursor-pointer transition-all hover:text-slate-100 group lg:text-base'>
-                        <a className='flex items-center gap-2 group'>
+                        <div className='flex items-center gap-2 group'>
                             WE ARE GYM DEV
 
                             <svg className=' stroke-slate-300 transition-all group-hover:stroke-slate-100' width="25" height="25" fill="none" stroke="#fafafa" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="m18.5 9-6 6-6-6"></path>
                             </svg>
-                        </a>
+                        </div>
 
                         <ul className='h-0 overflow-y-hidden absolute top-full bg-slate-100 flex flex-col items-center justify-center gap-3 text-base transition-all duration-500 text-slate-900 group-hover:h-[200px] group-hover:p-4'>
 
                             <li className='p-2 border-2 border-slate-900 rounded w-full text-center transition-all duration-300 hover:bg-fuchsia-600 hover:text-slate-100'>
-                                <a className=''>ACTIVITIES</a>
+                                <a href='#activities' className=''>ACTIVITIES</a>
                             </li>
 
                             <li className='p-2 border-2 border-slate-900 rounded w-full text-center transition-all duration-300 hover:bg-fuchsia-600 hover:text-slate-100'>
