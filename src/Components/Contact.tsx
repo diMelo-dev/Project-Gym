@@ -36,7 +36,7 @@ export function Contact() {
     }
 
     return(
-        <section className="bg-slate-900">
+        <section id='contact' className="bg-slate-900">
             <div className="m-auto px-3 py-20 max-w-5xl w-full text-slate-100 flex flex-col gap-4 lg:flex-row">
                 
                 <div className="flex-1 flex flex-col items-center gap-4">

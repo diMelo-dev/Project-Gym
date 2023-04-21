@@ -26,30 +26,30 @@ export function Header() {
                 {!showMenuMobile && 
                     <ul className='w-full h-full text-slate-300 hidden items-center gap-10 lg:flex'>
                         <li className='p-2 cursor-pointer transition-all hover:text-slate-100'>
-                            <a className=''>HOME</a>
+                            <a href='' className=''>HOME</a>
                         </li>
 
                         <li className='p-2relative cursor-pointer transition-all hover:text-slate-100 group'>
-                            <a className='flex items-center gap-2 group'>
+                            <div className='flex items-center gap-2 group'>
                                 WE ARE GYM DEV
 
                                 <svg className=' stroke-slate-300 transition-all group-hover:stroke-slate-100' width="25" height="25" fill="none" stroke="#fafafa" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m18.5 9-6 6-6-6"></path>
                                 </svg>
-                            </a>
+                            </div>
 
                             <ul className='h-0 overflow-y-hidden absolute top-full bg-slate-100 flex flex-col items-center justify-center gap-3 text-base transition-all duration-500 text-slate-900 group-hover:h-[200px] group-hover:p-4'>
 
                                 <li className='p-2 border-2 border-slate-900 rounded w-full text-center transition-all duration-300 hover:bg-fuchsia-600 hover:text-slate-100'>
-                                    <a className=''>ACTIVITIES</a>
+                                    <a href='#activities' className=''>ACTIVITIES</a>
                                 </li>
 
                                 <li className='p-2 border-2 border-slate-900 rounded w-full text-center transition-all duration-300 hover:bg-fuchsia-600 hover:text-slate-100'>
-                                    <a className=''>TESTIMONIALS</a>
+                                    <a href='#testimonials' className=''>TESTIMONIALS</a>
                                 </li>
 
                                 <li className='p-2 border-2 border-slate-900 rounded w-full text-center transition-all duration-300 hover:bg-fuchsia-600 hover:text-slate-100'>
-                                    <a className=''>OUR GYM</a>
+                                    <a href='#ourGym' className=''>OUR GYM</a>
                                 </li>
 
                             </ul>
@@ -57,11 +57,11 @@ export function Header() {
                         </li>
 
                         <li className='p-2 cursor-pointer transition-all hover:text-slate-100'>
-                            <a className=''>PRICING</a>
+                            <a href='#pricing' className=''>PRICING</a>
                         </li>
 
                         <li className='p-2 cursor-pointer transition-all hover:text-slate-100'>
-                            <a className=''>CONTACT</a>
+                            <a href='#contact' className=''>CONTACT</a>
                         </li>
                     </ul>
                 }
@@ -69,7 +69,7 @@ export function Header() {
                  
                 <ul className={`absolute top-0 left-0 bg-fuchsia-600 w-screen overflow-hidden text-slate-300 flex flex-col items-start gap-10 transition-all ${showMenuMobile ? 'pt-[130px] h-screen' : 'h-0'}`}>
                     <li className='p-2 text-3xl cursor-pointer transition-all hover:text-slate-100 lg:text-base'>
-                        <a className=''>HOME</a>
+                        <a href='' className=''>HOME</a>
                     </li>
 
                     <li className='p-2 text-3xl relative cursor-pointer transition-all hover:text-slate-100 group lg:text-base'>
@@ -100,11 +100,11 @@ export function Header() {
                     </li>
 
                     <li className='p-2 text-3xl cursor-pointer transition-all hover:text-slate-100 lg:text-base'>
-                        <a className=''>PRICING</a>
+                        <a href='#pricing' className=''>PRICING</a>
                     </li>
 
                     <li className='p-2 text-3xl cursor-pointer transition-all hover:text-slate-100 lg:text-base'>
-                        <a className=''>CONTACT</a>
+                        <a href='#contact' className=''>CONTACT</a>
                     </li>
                 </ul>
                 

@@ -4,7 +4,7 @@ import gym2 from '../assets/images/gym2.jpg';
 export function Gym() {
 
     return(
-        <section className="bg-slate-900">
+        <section id='ourGym' className="bg-slate-900">
             <div className=" flex lg:h-screen">
 
                 <div className='hidden w-1/2 lg:block'>
